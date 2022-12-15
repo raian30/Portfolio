@@ -1,0 +1,52 @@
+*{
+    font-family: Poppins;
+    color: var(--text);
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--background);
+}
+
+:root {
+    --background: #2a2a2a;
+    --text: #e7e7e7;
+    --red: #C43939;
+    --texthover: #2a2a2a;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.navitems{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.navitem{
+    cursor: pointer;
+}
+
+.hover {
+    border: var(--red) 10px solid;
+    -webkit-mask: conic-gradient(at bottom 4px left  4px,  #0000 90deg,#000 0)
+            0   var(--_i,200%)/var(--_i,4px) 200% border-box no-repeat,
+            linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+}
+.hover:hover {
+    --_i: 100%;
+    color: var(--red);
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+h1 {
+    display: flex;
+    padding-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
