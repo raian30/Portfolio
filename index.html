@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Pocetna</title>
 </head>
 <body>
@@ -12,12 +13,33 @@
             <a>Logo</a>
         </div>
         <div class="navitems">
+            <div class="navitem">
+                <span class="material-symbols-outlined">dark_mode</span>
+                <label class="switch">
+                    <input type="checkbox" onclick="darkon()">
+                    <span class="slider round"></span>
+                </label>
+                <span class="material-symbols-outlined">wb_sunny</span>
+            </div>
             <div class="navitem"><a class="hover">Pocetna</a></div>
             <div class="navitem"><a class="hover">Projekti</a></div>
             <div class="navitem"><a class="hover">Kontakt</a></div>
             <div class="navitem"><a class="hover">O meni</a></div>
         </div>
+        <div class="menu">
+            <span class="material-symbols-outlined" onclick="menuon()">menu</span>
+        </div>
     </div>
-    <h1>Dolazi uskoro!</h1>
+    <!--<div class="main">
+        <div class="sec sec1">
+            <div class="left">
+                <h1>Raian</h1>
+            </div>
+            <div class="right">
+                <img src="slike/webdev1.jpeg" alt="Web developer" width="500px">
+            </div>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
 </body>
 </html>
