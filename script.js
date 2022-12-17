@@ -1,10 +1,12 @@
 const doc = document.querySelector("body")
-
-let checked;
+let check;
 const darkon = () => {
-    checked = checked !== true;
+    if (check){
+        check = check === "true";
+    }
+    check = check !== true;
     let logo = doc.querySelector(".navlogo img")
-    if (checked === true) {
+    if (check === true) {
         document.documentElement.style
             .setProperty('--background', '#d4d2d2');
         document.documentElement.style
@@ -22,6 +24,7 @@ const darkon = () => {
             .setProperty('--shadow', '#424242');
         logo.src="/slike/logoLight.png";
     }
+    localStorage.setItem("checked", check);
 }
 
 let menushow;
@@ -53,5 +56,30 @@ const menuon = () => {
         menuitems.style.flexDirection = 'row'
     }
 
+}
+
+const seechecked = () => {
+    check = localStorage.getItem("checked");
+    let logo = doc.querySelector(".navlogo img")
+    let che = document.querySelector('.switch input')
+    if (check === "true") {
+        che.checked = true
+        document.documentElement.style
+            .setProperty('--background', '#d4d2d2');
+        document.documentElement.style
+            .setProperty('--text', '#2a2a2a');
+        document.documentElement.style
+            .setProperty('--shadow', '#7c7c7c');
+        logo.src="/slike/logoDark.png";
+    } else {
+        che.checked = false
+        document.documentElement.style
+            .setProperty('--background', '#2a2a2a');
+        document.documentElement.style
+            .setProperty('--text', '#d4d2d2');
+        document.documentElement.style
+            .setProperty('--shadow', '#424242');
+        logo.src="/slike/logoLight.png";
+    }
 }
 
