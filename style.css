@@ -60,6 +60,10 @@ a{
     .left{
         padding-bottom: 50px;
     }
+
+    .footer {
+        width: 90% !important;
+    }
 }
 
 @media only screen and (min-width: 989px) {
