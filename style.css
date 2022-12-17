@@ -176,9 +176,3 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-
-.sec {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-}

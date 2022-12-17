@@ -18,6 +18,12 @@
     font-size: 30px;
 }
 
+.sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .sec a {
     padding: 5px;
     border: 5px solid var(--red);
@@ -28,4 +34,8 @@
 .sec a:hover{
     border: 4.5px solid var(--shadow);
     transition: 0.3s ease;
+}
+
+.main{
+    padding-bottom: 110px;
 }
