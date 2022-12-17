@@ -32,8 +32,11 @@ const menuon = () => {
         menuitems.style.display = "flex"
         menuitems.style.flexDirection = 'column'
         for (let i=0; i<5; i++){
-            menuitem[i].style.display = 'block'
-            menuitem[i].style.display = 'block'
+            if (i===0) {
+                menuitem[i].style.display = 'flex'
+            } else {
+                menuitem[i].style.display = 'block'
+            }
         }
     } else {
         span.innerText = "menu"

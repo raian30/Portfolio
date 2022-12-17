@@ -21,7 +21,7 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     .menu {
         display: block;
     }
@@ -29,9 +29,12 @@ body{
         width: 100%;
         display: none;
     }
+    .navlogo {
+        align-items: flex-start !important;
+    }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 851px) {
     .navitems {
         display: flex !important;
         flex-direction: row !important;
@@ -48,6 +51,11 @@ body{
     justify-content: flex-end;
     flex-direction: row;
     gap: 40px;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
 }
 
 .navitem{
