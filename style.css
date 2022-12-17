@@ -181,3 +181,37 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+.footer{
+    width: 97.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--red);
+    padding: 20px;
+    align-items: center;
+    box-shadow: var(--shadow) -12px -12px 0 0;
+}
+
+.footer a, h1{
+    color: var(--texthover);
+    transition: .3s ease;
+}
+
+.footer a:hover {
+    transition: .3s ease;
+    color: var(--shadow);
+}
+
+.black {
+    height: 7px;
+    width: 7px;
+    background-color: var(--texthover);
+}
+
+.sites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
