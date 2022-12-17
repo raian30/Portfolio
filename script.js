@@ -16,7 +16,7 @@ const darkon = () => {
         document.documentElement.style
             .setProperty('--text', '#2a2a2a');
         document.documentElement.style
-            .setProperty('--shadow', '#7c7c7c');
+            .setProperty('--shadow', '#a6a5a2');
         logo.src="/slike/logoDark.png";
 
     } else {
