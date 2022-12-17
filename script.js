@@ -1,10 +1,14 @@
 const doc = document.querySelector("body")
 let check;
 const darkon = () => {
-    if (check){
-        check = check === "true";
+    if (check === "true"){
+        check = true
+    } else if (check === "false") {
+        check = false
     }
+    console.log(check)
     check = check !== true;
+    console.log(check)
     let logo = doc.querySelector(".navlogo img")
     if (check === true) {
         document.documentElement.style
