@@ -1,0 +1,23 @@
+.rimg {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.main img{
+    border-radius: 10px;
+    box-shadow: #424242 10px 10px 20px 1px;
+}
+
+.red{
+    color: var(--red)
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+.left h1 {
+    font-size: 30px;
+}

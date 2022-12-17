@@ -12,7 +12,7 @@ body{
 
 :root {
     --background: #2a2a2a;
-    --text: #d4d2d2;
+    --text: #cccccc;
     --red: #c43939;
     --texthover: #d4d2d2;
 }
@@ -49,6 +49,10 @@ a{
 
     .navlogo {
         align-items: flex-start !important;
+    }
+
+    .sec {
+        display: block !important;
     }
 }
 
@@ -171,4 +175,5 @@ input:checked + .slider:before {
 .sec {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
