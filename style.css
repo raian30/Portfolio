@@ -56,6 +56,9 @@ a{
         display: block !important;
     }
 
+    .left{
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 989px) {
