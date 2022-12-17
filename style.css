@@ -15,6 +15,7 @@ body{
     --text: #cccccc;
     --red: #c43939;
     --texthover: #d4d2d2;
+    --shadow: #424242;
 }
 
 a{
@@ -54,6 +55,7 @@ a{
     .sec {
         display: block !important;
     }
+
 }
 
 @media only screen and (min-width: 989px) {

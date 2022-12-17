@@ -9,6 +9,8 @@ const darkon = () => {
             .setProperty('--background', '#d4d2d2');
         document.documentElement.style
             .setProperty('--text', '#2a2a2a');
+        document.documentElement.style
+            .setProperty('--shadow', '#7c7c7c');
         logo.src="/slike/logoDark.png";
 
     } else {
@@ -16,6 +18,8 @@ const darkon = () => {
             .setProperty('--background', '#2a2a2a');
         document.documentElement.style
             .setProperty('--text', '#d4d2d2');
+        document.documentElement.style
+            .setProperty('--shadow', '#424242');
         logo.src="/slike/logoLight.png";
     }
 }
