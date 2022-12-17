@@ -188,6 +188,7 @@ input:checked + .slider:before {
     flex-direction: column;
     background-color: var(--red);
     padding: 20px;
+    gap: 20px;
     align-items: center;
     box-shadow: var(--shadow) -12px -12px 0 0;
 }
@@ -213,5 +214,11 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.copyright{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
