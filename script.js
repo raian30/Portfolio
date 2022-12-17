@@ -2,7 +2,6 @@ const doc = document.querySelector("body")
 
 let checked;
 const darkon = () => {
-    check = doc.querySelector(".navbar input").value
     checked = checked !== true;
 
     if (checked === true) {
@@ -48,3 +47,4 @@ const menuon = () => {
     }
 
 }
+

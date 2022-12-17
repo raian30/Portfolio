@@ -17,11 +17,15 @@ body{
     --texthover: #d4d2d2;
 }
 
+a{
+    text-decoration: none;
+}
+
 .menu {
     display: none;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 869px) {
     .menu {
         display: block;
     }
@@ -29,12 +33,18 @@ body{
         width: 100%;
         display: none;
     }
+
+    .navitems{
+        width: 100%;
+        padding-top: 40px;
+    }
+
     .navlogo {
         align-items: flex-start !important;
     }
 }
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 870px) {
     .navitems {
         display: flex !important;
         flex-direction: row !important;
@@ -66,6 +76,14 @@ body{
     align-items: center;
     cursor: pointer;
     gap: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: var(--red);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .hover {
