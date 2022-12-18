@@ -66,7 +66,11 @@
     }
 
     .projekt {
-        max-width: 60%;
+        max-width: 70%;
     }
-
+}
+@media only screen and (max-width: 788px) {
+    .projekt {
+        max-width: 100%;
+    }
 }
