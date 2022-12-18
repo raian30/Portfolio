@@ -191,7 +191,7 @@ input:checked + .slider:before {
     gap: 20px;
     align-items: center;
     box-shadow: var(--shadow) -12px -12px 0 0;
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 100;
     text-align: center;
