@@ -52,7 +52,8 @@
 
 .projekti img{
     border: 5px solid var(--red);
-    background-color: var(--texthover);
+    background-color: var(--background);
+    padding: 5px;
     border-radius: 100%;
     transition: .5s ease;
 }
