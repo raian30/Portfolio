@@ -20,7 +20,6 @@
 .nottitle h1 {
     color: var(--text);
 }
-
 .sec {
     display: flex;
     justify-content: space-between;
@@ -35,7 +34,7 @@
 }
 
 .p a:hover{
-    border: 4.5px solid var(--shadow);
+    border: 5px solid var(--shadow);
     transition: 0.3s ease;
 }
 

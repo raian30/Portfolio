@@ -5,9 +5,12 @@
 }
 
 body{
-    padding: 20px 0px 0 0px;
-    margin: 0 10%;
     background-color: var(--background);
+    padding: 20px 0px 0 0px;
+}
+
+.container{
+    margin: 0 10%;
 }
 
 :root {

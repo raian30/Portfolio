@@ -6,9 +6,9 @@ const darkon = () => {
     } else if (check === "false") {
         check = false
     }
-    console.log(check)
+
     check = check !== true;
-    console.log(check)
+
     let logo = doc.querySelector(".navlogo img")
     if (check === true) {
         document.documentElement.style

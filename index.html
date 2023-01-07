@@ -11,44 +11,46 @@
     <title>Pocetna</title>
 </head>
 <body onload="seechecked()">
-    <div class="navbar">
-        <div class="navlogo">
-            <img src="slike/logoLight.png" alt="Logo" width="120">
-        </div>
-        <div class="navitems">
-            <div class="navitem">
-                <span class="material-symbols-outlined">dark_mode</span>
-                <label class="switch">
-                    <input type="checkbox" onclick="darkon()">
-                    <span class="slider round"></span>
-                </label>
-                <span class="material-symbols-outlined">wb_sunny</span>
+    <div class="container">
+        <div class="navbar">
+            <div class="navlogo">
+                <img src="slike/logoLight.png" alt="Logo" width="120">
             </div>
-            <div class="navitem">
-                <span class="dot"></span>
-                <a class="hover">Pocetna</a>
-            </div>
-            <div class="navitem"><a class="hover" href="pages/projekti.html">Projekti</a></div>
-            <div class="navitem"><a class="hover" href="pages/kontakt.html">Kontakt</a></div>
-            <div class="navitem"><a class="hover" href="pages/omeni.html">O meni</a></div>
-        </div>
-        <div class="menu">
-            <span class="material-symbols-outlined" onclick="menuon()">menu</span>
-        </div>
-    </div>
-    <div class="main">
-        <div class="sec sec1">
-            <div class="left">
-                <div class="title"><h1>Dobrodosli,</h1></div><div class="nottitle"><h1>Na Moj Web Portfolio.</h1></div>
-                <p>Ja sam Raian, full stack web developer koji voli raditi lijepe i funkcionalne web stranice/aplikacije</p>
-                <p>Koristim: HTML, CSS, JS, SvelteKit, C#, Python, NodeJS, Rust, Figma, Tailwind, Bootstrap...</p><br>
-                <div class="projekti">
-                    <div class="p"><a href="pages/projekti.html">Moji projekti</a></div>
-                    <a href="https://github.com/raian30"><img src="slike/github.png" alt="Github" width="50"></a>
+            <div class="navitems">
+                <div class="navitem">
+                    <span class="material-symbols-outlined">dark_mode</span>
+                    <label class="switch">
+                        <input type="checkbox" onclick="darkon()">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="material-symbols-outlined">wb_sunny</span>
                 </div>
+                <div class="navitem">
+                    <span class="dot"></span>
+                    <a class="hover">Pocetna</a>
+                </div>
+                <div class="navitem"><a class="hover" href="pages/projekti.html">Projekti</a></div>
+                <div class="navitem"><a class="hover" href="pages/kontakt.html">Kontakt</a></div>
+                <div class="navitem"><a class="hover" href="pages/omeni.html">O meni</a></div>
             </div>
-            <div class="right">
-                <img src="slike/webdev1.jpeg" alt="Web developer" class="rimg">
+            <div class="menu">
+                <span class="material-symbols-outlined" onclick="menuon()">menu</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sec sec1">
+                <div class="left">
+                    <div class="title"><h1>Dobrodosli,</h1></div><div class="nottitle"><h1>Na Moj Web Portfolio.</h1></div>
+                    <p>Ja sam Raian, full stack web developer koji voli raditi lijepe i funkcionalne web stranice/aplikacije</p>
+                    <p>Koristim: HTML, CSS, JS, SvelteKit, C#, Python, NodeJS, Rust, Figma, Tailwind, Bootstrap...</p><br>
+                    <div class="projekti">
+                        <div class="p"><a href="pages/projekti.html">Moji projekti</a></div>
+                        <a href="https://github.com/raian30"><img src="slike/github.png" alt="Github" width="50"></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img class="rimg" src="slike/webdev1.jpg" alt="Web Developer">
+                </div>
             </div>
         </div>
     </div>
@@ -62,7 +64,7 @@
         </div>
         <div class="copyright">
             <a href="https://github.com/raian30"><img src="slike/github.png" alt="github" width="40"></a>
-            <h1> &copy; 2022 Raian Melon</h1>
+            <h1> &copy; 2023 Raian Melon</h1>
         </div>
     </div>
     <script src="script.js"></script>
